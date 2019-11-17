@@ -26,40 +26,12 @@ d3.json(url, function(data) {
                  );
             }
 
-            // if (category === "Data Science") {
-            //     ds.push(location);     
-            // }     
-            // else if (category === "Business Intelligence") {
-            //     bi.push(location);
-            // }
-            // else {mls.push(location);
-            // }
         }
         
 
 var dsLayer = L.layerGroup(ds);
 var biLayer = L.layerGroup(bi);
 var mlsLayer = L.layerGroup(mls);
-
-// var dsLayer = L.heatLayer(ds, {
-//     radius: 50,
-//     max: 1.5,
-//     maxOpacity: 0.1,
-//     minOpacity: 0,
-//     fillColor: "red",
-//     blur: 1,
-//     density: 80
-// });
-
-// var biLayer = L.heatLayer(bi, {
-//     radius: 20,
-//     blur: 0
-// });
-
-// var mlsLayer = L.heatLayer(mls, {
-//     radius: 20,
-//     blur: 0
-// });
 
 
 var light = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
