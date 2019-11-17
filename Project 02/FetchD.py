@@ -11,7 +11,7 @@ import numpy as np
 from flask import Flask, jsonify
 import json
 
-yourAPI = "AIzaSyC3lF94PxnSx34-WtKyRO_2ETFq-RSD2Ao"
+yourAPI = "ENTER API KEY"
 
 #############################################################
 #FUNCTIONS DEFINITIONS
